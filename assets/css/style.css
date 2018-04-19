@@ -1,0 +1,11 @@
+header {
+    background-color: grey;
+}
+
+.logo h1 a {
+    color: black;
+}
+
+header .navbar {
+    background-color: grey !important;
+}
