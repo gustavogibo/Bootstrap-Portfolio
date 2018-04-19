@@ -9,3 +9,8 @@ header {
 header .navbar {
     background-color: grey !important;
 }
+
+.bio-picture {
+    max-width: 350px;
+    float: left;
+}
