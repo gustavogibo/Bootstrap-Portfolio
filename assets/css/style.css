@@ -24,3 +24,19 @@ footer {
     color: white;
     line-height: 50px;
 }
+
+/* Portfolio */
+
+.item-gallery {
+    margin-bottom: 15px;
+}
+
+.item-gallery .title-item-gallery {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    color: white;
+    background: blue;
+    line-height: 35px;
+    bottom: 45px;
+}
