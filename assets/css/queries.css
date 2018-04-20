@@ -6,15 +6,40 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .bio-picture {
+        max-width: 350px;
+        float: left;
+    }
 
+    .logo {
+        text-align: left;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+    .bio-picture {
+        max-width: 350px;
+        float: left;
+    }
+
+    .logo {
+        text-align: left;
+    }
+
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+    .bio-picture {
+        max-width: 350px;
+        float: left;
+    }
+
+    .logo {
+        text-align: left;
+    }
 
 }
