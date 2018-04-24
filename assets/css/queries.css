@@ -36,6 +36,8 @@
     .bio-picture {
         max-width: 350px;
         float: left;
+        margin-right: 15px;
+        margin-top: 5px;
     }
 
     .logo {

@@ -1,5 +1,9 @@
+body {
+    background: url(../img/pattern.png) repeat;
+}
+
 header {
-    background-color: grey;
+    background-color: #fff;
 }
 
 .logo {
@@ -11,11 +15,27 @@ header {
 }
 
 header .navbar {
-    background-color: grey !important;
+    background-color: #fff !important;
+}
+
+.navbar ul li {
+    display: inline-block;
 }
 
 main {
     padding-top: 25px;
+}
+
+main .main-content {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #E4E4E4;
+}
+
+.aside-content {
+    background-color: #6591d8;
+    padding: 15px;
+    border: 1px solid #E4E4E4;
 }
 
 footer {
@@ -39,4 +59,16 @@ footer {
     background: blue;
     line-height: 35px;
     bottom: 45px;
+}
+
+.content-portfolio {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #E4E4E4;
+}
+
+form {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #E4E4E4;
 }
