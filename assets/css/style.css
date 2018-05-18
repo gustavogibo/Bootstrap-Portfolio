@@ -26,7 +26,7 @@
 }
 
     /* Paragraph for Parallax Section */ 
-.paralparalsec p, .paralsec1 p, .paralsec2 p {
+.paralsec p, .paralsec1 p, .paralsec2 p, .paralsec4 p {
     font-size: 40px;
     color:#fff;
     text-align: center;
@@ -60,6 +60,10 @@
 .paralsec3 {
     background-image: url("../img/success.png");
 }
+
+.paralsec4 {
+    background-image: url("../img/coffee-and-laptop.png");
+}
     
 .jumbotron{
     margin-bottom: 0;
@@ -70,11 +74,42 @@
     margin-bottom: 10px;
 }
 
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    display: block;
+    font-size: 4rem;
+    background: #fff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin: 0 auto;
+}
+
+.contact-1 a:hover {
+    background:#138496;
+}
+
+.contact-2 a:hover {
+    background: #28A745;
+}
+
+.contact-3 a:hover {
+    background:#FFC107;
+}
+
+.contact a:hover i {
+    color: #fff;
+}
+
 .wn-footer {
     padding: 2.5rem 0;
     text-align: center;
     color: white;
-    background-color: #607D8B;
+    background: rgba(0, 0, 0, 0.9);
     border-top: .05rem solid #e5e5e5;
     }
     
