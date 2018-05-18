@@ -10,8 +10,8 @@
     margin: auto;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-
 }
+
 .paral {
     min-height: 600px;
     background-attachment: fixed;
@@ -115,8 +115,16 @@
     color: white;
     background: rgba(0, 0, 0, 0.9);
     border-top: .05rem solid #e5e5e5;
+}
+
+.wn-footer a {
+color: yellow;
+}
+
+@media (max-width: 575.98px) {
+
+    #fixed-menu {
+        display: none;
     }
-    
-    .wn-footer a {
-    color: yellow;
-    }
+
+}
