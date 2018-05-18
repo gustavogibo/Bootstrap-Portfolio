@@ -6,7 +6,35 @@ var description4 = "On my last 3 months, I decided to take the Coding Boot Camp 
 var count = 0;
 $(document).ready(function() {
 
-    showText(".description-1", description1, 0, 150);
+    $(".fancybox").fancybox();
+
+    showText(".description-1", description1, 0, 100);
+
+    $(".navigation").on("click", function(event) {
+
+        var target = $(this).attr("href");
+
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $(target).offset().top }, 1000);
+      
+    });
+
+    $(".skill").on("click", function(event) {
+
+        event.preventDefault();
+
+    });
+
+    $(".skill").mouseenter(function(e) {
+        e.stopPropagation();
+        var newText = $(this).attr("tech")+" "+$(this).attr("percent");
+        $(this).text(newText);
+      })
+      .mouseleave(function(e) {
+            e.stopPropagation();
+          var oldText = $(this).attr("tech");
+        $(this).text(oldText);
+      });
 
 
 });
@@ -15,14 +43,12 @@ $(window).scroll(function() {
 
     if(isScrolledIntoView($(".about-4"))) {
 
-        
-
         if(count == 0) {
 
             count = 1;
             console.log("test");
-            showText(".about-2", description2, 0, 75);
-            showText(".about-3", description3, 0, 75);
+            showText(".about-2", description2, 0, 55);
+            showText(".about-3", description3, 0, 65);
             showText(".about-4", description4, 0, 75);
 
         }

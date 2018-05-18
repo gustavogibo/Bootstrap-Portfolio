@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div id="fixed-menu" class="text-center">
-        <button class="btn btn-primary btn-lg btn-md" href="#paralsec" role="button">Home</button>
-        <button class="btn btn-primary btn-lg btn-md" href="#paralsec1" role="button">About Me</button>
-        <button class="btn btn-info btn-lg btn-md" href="#paralsec2" role="button">Skills</button>
-        <button class="btn btn-success btn-lg btn-md" href="#paralsec3" role="button">Projects</button>
-        <button class="btn btn-warning btn-lg btn-md" href="#paralsec4" role="button">Contact</button>
+        <button class="btn btn-danger btn-lg btn-md navigation" href="#paralsec" role="button">Home</button>
+        <button class="btn btn-primary btn-lg btn-md navigation" href="#paralsec1" role="button">About Me</button>
+        <button class="btn btn-info btn-lg btn-md navigation" href="#paralsec2" role="button">Skills</button>
+        <button class="btn btn-success btn-lg btn-md navigation" href="#paralsec3" role="button">Projects</button>
+        <button class="btn btn-warning btn-lg btn-md navigation" href="#paralsec4" role="button">Contact</button>
     </div>
     <div class="jumbotron paral paralsec text-center" id="paralsec">
         <h1 class="display-3">Gustavo Gibo</h1>
@@ -30,41 +32,115 @@
         <p class="about-3"></p>
         <p class="about-4"></p>
         <p class="about-5"></p>
-        <p class="lead">
-            <a class="btn btn-warning btn-lg btn-md" href="widgets.html" role="button">Here is a button 2</a>
-        </p>
     </div>
 
     <div class="jumbotron paral paralsec2" id="paralsec2">
-        <h1 class="display-3">Here is a heading 3</h1>
-        <p class="lead">Here is a short description 2</p>
+        <h1 class="display-3">Skills</h1>
+        <p class="lead"></p>
         <p class="lead">
-            <a class="btn btn-primary btn-lg btn-md" href="themes.html" role="button">Here is a button 3</a>
+                <button class="btn btn-primary btn-lg btn-md skill" percent="90%" tech="HTML">HTML</button>
+                <button class="btn btn-info btn-lg btn-md skill" percent="85%" tech="CSS">CSS</button>
+                <button class="btn btn-success btn-lg btn-md skill" percent="75%" tech="Javascript">Javascript </button>
+                <button class="btn btn-danger btn-lg btn-md skill" percent="35%" tech="Node.js">Node.js</button>
+                <button class="btn btn-primary btn-lg btn-md skill" percent="75%" tech="Git">Git</button>
+                <button class="btn btn-danger btn-lg btn-md skill" percent="85%" tech="jQuery">jQuery</button>
+                <button class="btn btn-success btn-lg btn-md skill" percent="85%" tech="Smarty">Smarty</button>
+                <button class="btn btn-info btn-lg btn-md skill" percent="90%" tech="Wordpress">Wordpress</button>
+                <button class="btn btn-primary btn-lg btn-md skill" percent="90%" tech="Opencart">Opencart</button>
+                <button class="btn btn-success btn-lg btn-md skill" percent="90%" tech="MySQL">MySQL</button>
+                <button class="btn btn-danger btn-lg btn-md skill" percent="70%" tech="Google Firebird">Google Firebird</button>
+                <button class="btn btn-success btn-lg btn-md skill" percent="70%" tech="Trello">Trello</button>
+                <button class="btn btn-danger btn-lg btn-md skill" percent="60%" tech="Adobe Photoshop">Adobe Photoshop</button>
+                <button class="btn btn-primary btn-lg btn-md skill" percent="70%" tech="Linux">Linux</button>
+                <button class="btn btn-info btn-lg btn-md skill" percent="70%" tech="Terminal">Terminal</button>
+                <button class="btn btn-success btn-lg btn-md skill" percent="50%" tech="Android SDK">Android SDK</button>
+                <button class="btn btn-danger btn-lg btn-md skill" percent="75%" tech="PHP">PHP</button>
+                <button class="btn btn-info btn-lg btn-md skill" percent="65%" tech="Doctrine">Doctrine</button>
+                <button class="btn btn-primary btn-lg btn-md skill" percent="70%" tech="SQL Server">SQL Server</button>
+                <button class="btn btn-danger btn-lg btn-md skill" percent="50%" tech="C#">C#</button>
         </p>
     </div>
 
     <div class="jumbotron paral paralsec3" id="paralsec3">
-        <h1 class="display-3">Here is a heading 3</h1>
-        <p class="lead">Here is a short description 2</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg btn-md" href="themes.html" role="button">Here is a button 3</a>
-        </p>
+        <h1 class="display-3">Projects</h1>
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <div class="card">
+                            <a href="assets/img/giff.png" class="fancybox">
+                                <img class="card-img-top" src="assets/img/giff.png" alt="Card image cap">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">GIFtastic</h5>
+                                <p class="card-text">Are you looking for a specific GIF? Use this website as your GIF source! Using the GIPHY API, you can have millions of gifs at your services! Wanna see the gif moving? Just click on it and see the magic happens!</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">HTML5, CSS3, Bootstrap</li>
+                                <li class="list-group-item">Javascript, jQuery</li>
+                                <li class="list-group-item">GIPHY API via Ajax</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="https://github.com/gustavogibo/GIFtastic" target="_blank" class="card-link">Repository</a>
+                                <a href="https://gustavogibo.github.io/GIFtastic/" target="_blank" class="card-link">Project Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <div class="card">
+                            <a href="assets/img/train-scheduler-full.png" class="fancybox">
+                                <img class="card-img-top" src="assets/img/train-scheduler.png" alt="Card image cap">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Train Scheduler</h5>
+                                <p class="card-text">Project that used the functionality of the Firebase Tool. Users can access the website and add some train schedules to the table. The data will stay on the page, if the user refreshes it. Also, a setInterval updates each row every minute.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">HTML5, CSS3, Bootstrap</li>
+                                <li class="list-group-item">Javascript, jQuery, Moment.js   </li>
+                                <li class="list-group-item">Google Firebase for Data Persistance</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="https://github.com/gustavogibo/Train-Scheduler" target="_blank" class="card-link">Repository</a>
+                                <a href="https://gustavogibo.github.io/Train-Scheduler/" target="_blank" class="card-link">Project Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <div class="card">
+                            <a href="assets/img/trivia-game-full.png" class="fancybox">
+                                <img class="card-img-top" src="assets/img/trivia-game.png" alt="Card image cap">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Trivia Game</h5>
+                                <p class="card-text">Test your knowledge about movies in this 6-question Trivia Game! 30 seconds is all you have. Wait for the timer and check your score! If you love GIFs, try to have different scores, you will love the result screen!</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">HTML5, CSS3, Bootstrap</li>
+                                <li class="list-group-item">Javascript</li>
+                                <li class="list-group-item">jQuery</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="https://github.com/gustavogibo/Triviagame" target="_blank" class="card-link">Repository</a>
+                                <a href="https://gustavogibo.github.io/Triviagame/" target="_blank" class="card-link">Project Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
 
     <div class="jumbotron paral paralsec4" id="paralsec4">
         <h1 class="display-3">Here is a heading 3</h1>
-        <p class="lead">Here is a short description 2</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg btn-md" href="themes.html" role="button">Here is a button 3</a>
-        </p>
+        
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" -->
+        <!-- crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
     <script src="assets/js/functions.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
