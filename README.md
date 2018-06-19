@@ -1,8 +1,9 @@
 # Bootstrap Portfolio
 
-Github Pages Link:
+My portfolio of my projects and assignments at UC Berkeley Coding Bootcamp. Will be updated frequently as I learn and create more!
 
-[Portfolio](https://gustavogibo.github.io/Bootstrap-Portfolio/)
+
+[Click here to see my portfolio!](https://gustavogibo.github.io/Bootstrap-Portfolio/)
 
 ## Built With
 

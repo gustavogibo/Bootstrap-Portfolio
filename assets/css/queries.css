@@ -44,4 +44,9 @@
         text-align: left;
     }
 
+    .card-img-top {
+        height: 255px;
+        object-fit: cover;
+    }
+
 }

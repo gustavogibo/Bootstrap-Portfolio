@@ -82,6 +82,11 @@
     text-align: center;
 }
 
+.contact span {
+    font-size: 25px;
+    color: #fff;
+}
+
 .contact a {
     display: block;
     font-size: 4rem;
@@ -120,6 +125,7 @@
 .wn-footer a {
 color: yellow;
 }
+
 
 @media (max-width: 575.98px) {
 
